@@ -1,0 +1,33 @@
+@charset 'UTF-8';
+
+h1{
+    background-color: darkred;
+    width: 400px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 0 30px 0 30px;
+    padding: 10px;
+    box-shadow: 10px solid black;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    vertical-align: middle;
+}
+div {
+    background-color: rgb(130, 226, 226);
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin: auto;
+    
+}
+h1:hover{
+    background-color: aquamarine;
+}
+div:hover{
+    background-color: red;
+}
+p {
+    text-align: center;
+    margin: auto;
+}
